@@ -5,8 +5,17 @@ struct eMailMsg;
 void removeSpam(vector<eMailMsg> &arr);
 vector<eMailMsg> arr;
 
+// struct eMailMsg {
+//     string to;
+//     string from;
+//     string msg;
+//     string subject;
+//     int date;
+//     int time;
+// };
+
 struct eMailMsg {
-    string to;
+    vector<string> to;
     string from;
     string msg;
     string subject;
